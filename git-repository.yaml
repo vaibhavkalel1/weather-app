@@ -1,9 +1,0 @@
-apiVersion: source.toolkit.fluxcd.io/v1beta1
-kind: GitRepository
-metadata:
-  name: flux-source
-  namespace: flux-system1
-spec:
-  interval: 1m
-  url: "https://github.com/vaibhavkalel1/weather-app.git"
-
