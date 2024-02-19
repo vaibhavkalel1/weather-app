@@ -7,3 +7,5 @@ namespace: flux-system
 # Define the resources you want to manage with Flux
 resources:
 - deployment.yml
+- service.yml
+

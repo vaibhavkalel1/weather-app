@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: weather-app-deployment
 spec:
-  replicas: 1  # You can adjust the number of replicas as needed
+  replicas: 3  # You can adjust the number of replicas as needed
   selector:
     matchLabels:
       app: weather-app
@@ -17,3 +17,4 @@ spec:
         image: vaibhavkalel/weather-image3:latest  # Replace with your actual Docker image and tag
         ports:
         - containerPort: 8000
+
